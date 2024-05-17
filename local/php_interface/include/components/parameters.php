@@ -124,7 +124,7 @@ function getArParameterTextarea(
     $name = GetMessage($name) ?? $name;
     $default = GetMessage($default) ?? $default;
     $arAdditional = array(
-        'JS_FILE' => '/local/templates/sprod/assets/js/parameters.js',
+        'JS_FILE' => '/local/templates/imlera/assets/js/parameters.js',
         'JS_EVENT' => 'OnTextAreaConstruct',
     );
 
